@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="myBody" style="color:white; background-color:white;display:flex;justify-content:center;align-items:center;">
+
+  <div style="display:flex;justify-content:center;align-items:center;margin-top:50px; gap:40px;">
+    
+    <button id="turnOn" onclick="bulbOn()" style=" border-radius:5px;border:2px solid rgb(93, 3, 3);background-color: rgb(235, 33, 33);color:white;padding:10px;">Turn on the light</button>
+    <img  id="myImage"  src="images/Light bulb-bro.png" alt="" style="height:550px;width:450px;">
+    <button id="turnOff" onclick="bulbOff()" style=" border-radius:5px;border:2px solid rgb(2, 2, 73);background-color:rgb(32, 32, 219);color:white;padding:10px;">Turn off the light</button>
+  </div>
+  
+    <script>
+      function bulbOn(){
+        document.getElementById("myImage").src = "images/Light bulb-bro (1).png"
+      }
+      function bulbOff(){
+        document.getElementById("myImage").src = "images/Light bulb-bro.png"
+      }
+     </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+@media screen and (max-width:800px){
+  #turnOn{
+    position:absolute;
+    top:30px;
+    right:350px;
+  }
+  #turnOff{
+    position:absolute;
+    top:600px;
+    right:350px;
+  }
+}
+@media screen and (max-width:600px){
+  #turnOn{
+    position:absolute;
+    left:150px;
+    width:100px;
+  }
+  #turnOff{
+    position:absolute;
+    left:150px;
+    width:100px;
+  }
+}
